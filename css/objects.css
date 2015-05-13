@@ -1,0 +1,1115 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	background-image: url(../img/service/fon2.jpg);
+}
+
+#header {
+	position:fixed;
+	top:0;
+	background-color:#7A95D1;
+	border:1px solid #7A95D1;
+	border-bottom:1px solid #667DAF;
+	margin:auto;
+	width:100%;
+	height:40px;
+	z-index:1000;
+	box-shadow: 0 0 10px #323232;
+}
+
+#head {
+	margin:auto;
+	width:1200px;
+	height:40px;
+}
+
+#logo {
+	margin:7px 0 0 0;
+	width:150px;
+	height:40px;
+	float:left;
+}
+
+#logo a {
+	font:bold 22px Arial,Helvetica,sans-serif;
+	color:#fff;
+	text-decoration:none;
+}
+
+#close {
+	margin:10px 0 0 900px;
+	width:150px;
+	height:40px;
+	float:left;
+}
+
+#close a {
+	font:14px Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-decoration:none;
+}
+
+#close a:hover {
+	text-decoration:underline;
+}
+
+#container {
+	margin:auto;
+	border:0px solid;
+	width:1200px;
+	min-height:500px;
+}
+
+.tab {
+	/*отступ от шапки 
+	в админке */
+	height:60px;
+}
+
+.createCard {
+	border:2px solid #989898;
+	border-radius:3px;
+	width:350px;
+	height:62px;
+	background-image:url(../img/service/createCard.png);
+}
+
+.createCard:hover {
+	border:2px solid #7A95D1;
+}
+
+.createCard:active {
+	background-position:0 -62px;
+}
+
+#content {
+}
+
+#objectBlock {
+	/*margin-top:25px;*/
+	height:225px;
+}
+
+.obLeft {
+	width:584px;
+	height:223px;
+	float: left;
+}
+
+.obRight {
+	width:610px;
+	height:223px;
+	float: left;
+}
+													/*
+	Отк. блок информации о пользователе
+													*/
+.oblUser {
+	margin:65px 0px 0px 55px;
+/*	border:1px solid;*/
+	width:500px;
+	height:62px;
+}
+
+.oblUserImg {
+	border:1px solid #AEAFB0;
+	border-radius:3px;
+	background-size: cover;
+	width:60px;
+	height:60px;
+	float:left;
+}
+
+.oblUserContent {
+	width:436px;
+	height:60px;
+	float:left;
+}
+
+.oblUserName {
+	width:434px;
+	height:22px;
+}
+
+.oblUserName p {
+	margin:0px;
+	padding:0px 0px 0px 5px;
+	font:bold 16px Arial, Helvetica, sans-serif;
+	color:#949494;
+}  													
+
+.oblUserAddress {
+	width:435px;
+	height:20px;
+}
+
+.oblUserAddress p {
+	margin:0px;
+	padding:0px 0px 0px 5px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.oblUserPhone {
+	width:435px;
+	height:20px;
+}
+
+.oblUserPhone p {
+	margin:0px;
+	padding:0px 0px 0px 5px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.oblUserAddress span,
+.oblUserPhone span {
+	font:14px Arial, Helvetica, sans-serif;
+}
+
+.oblUserStatus {
+	margin:10px 0 0 55px;
+/*	border:1px solid;*/
+	width:500px;
+	height:20px;
+}
+
+.oblUserStatus p {
+	margin:0;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#F17E00;
+}
+
+.oblUserStatus a {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#006600;
+	text-decoration:none;
+}
+
+.oblUserStatus a:hover {
+	text-decoration:underline;
+}
+													/*
+	Закр. блок информации о пользователе
+													*/
+
+.claimClients {
+	margin-top:35px;
+	width:600px;
+	max-height:155px;
+	overflow:hidden;
+}
+
+.claimClients a {
+	font:14px Arial, Helvetica, sans-serif;
+	color:#52648A;
+	text-decoration:none;
+}
+
+.claimClients a:hover {
+	color:#2F2F2F;
+	text-decoration:underline;
+}
+
+.claimClients p {
+	margin:5px 0px 0px 0px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#676766;
+}
+
+.ccTop {
+	width:598px;
+	height:25px;
+}
+
+.ccTop p {
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	font:bold 16px Arial, Helvetica, sans-serif;
+	color:#676766;
+}
+
+#menuBlock {
+	margin:0px 0px 0px 0px;
+	overflow:hidden
+}
+
+#mbCenter,
+#mbRight {
+	margin-left:52px;
+}
+
+#mbLeft,
+#mbCenter,
+#mbRight {
+	border:0px solid;
+	width:365px;
+	min-height:300px;
+	float:left;
+}
+
+.mbBox {
+	border:0px solid;
+	height:110px;
+}
+
+.mbBoxTop {
+	border-bottom:1px solid #C7C7C5;
+	height:38px;
+}
+
+.mbBoxTop p {
+	margin:0px;
+	padding:12px 0px 0px 0px;
+	font:bold 20px Arial, Helvetica, sans-serif;
+	color:#676766;
+}
+
+.mbBoxTop span {
+	font:16px Arial, Helvetica, sans-serif;
+	color:#38C188;
+}
+
+.mbBoxBottom {
+	margin-top:5px;
+	border:0px solid;
+}
+
+/*.mbBoxBottom p { игрался с выводом страницы поверх меню на Ajax
+	margin:0px 0px 0px 5px;
+	font:16px Arial, Helvetica, sans-serif;
+	color:#949493;
+	cursor:pointer;
+	text-decoration:none;
+}*/
+
+.mbBoxBottom p {
+	margin:0px 0px 0px 5px;
+	font:16px Arial, Helvetica, sans-serif;
+	color:#949493;
+	text-decoration:none;
+}
+
+.mbBoxBottom a {
+	color:#949493;
+	text-decoration:none;
+}
+
+.mbBoxBottom a:hover {
+	color:#474747;
+	text-decoration:underline;
+}
+													/*
+	Откр. Окно настроек (controlWindow)
+													*/
+.controlWindow {
+	/*margin-top:60px;*/
+	position: fixed;
+	border:1px solid #B2B2B2;
+	border-radius:2px;
+	width:1200px;
+	height:310px;
+	box-shadow: 0 0 5px #9D9D9D;
+	background-color:#fff;
+}
+
+.cwHeader {
+	height:30px;
+	background-color:#E4E4E4;
+}
+
+.cwhTitle {
+	width:1000px;
+	height:30px;
+	float:left;
+}
+
+.cwhTitle p {
+	margin:5px 0px 0px 15px;
+	font:16px Arial, Helvetica, sans-serif;
+	color:#777;
+}
+
+.cwhTitle span {
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#F17E00;
+}
+
+.cwhSave {
+	width:126px;
+	height:30px;
+	float:left;
+}
+
+.cwhSave input[type=submit]{
+	margin:2px 0 0 0;
+	border:0px solid;
+	background-color:#E4E4E4;
+	width:100px;
+	height:25px;
+}
+
+.cwhSave input[type=submit]:hover {
+	border:1px solid #676766;
+	box-shadow: 0 0 3px #676766;
+	
+}
+
+.cwhClose {
+	width:70px;
+	height:30px;
+	float:left;
+}
+
+.cwhClose p {
+	margin:5px 0px 0px 3px;
+}
+
+.cwhClose a {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#7A95D1;
+	text-decoration:none;
+}
+
+.cwhClose a:hover {
+	text-decoration:underline;
+}
+
+.cwBody {
+	margin:15px 0 0 15px;
+	width:1170px;
+	height:250px;
+}
+													/*
+	Закр. Окно настроек (controlWindow)
+													*/
+													/*
+	Откр. Добавить запчасть
+	Откр. Добавить автомобиль
+													*/													
+.cwbAds {
+	width:670px;
+	height:250px;
+	float:left;
+}
+
+.cwbAdsLeft {
+	width:380px;
+	height:250px;
+	float:left;
+}
+
+.cwbAdsLeftLine {
+	width:380px;
+	height:30px;
+}
+
+.cwbAdsLeftColumn1 {
+	width:140px;
+	height:30px;
+	float:left;
+}
+
+.cwbAdsLeftColumn1 p {
+	margin:5px 0 0 0;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsLeftColumn2 {
+	width:240px;
+	height:30px;
+	float:left;
+}
+
+.cwbAdsLeftColumn2Select {
+	border:1px solid #B2B2B2;
+	width:235px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.cwbAdsLeftColumn2 select {
+	background: transparent;
+	border:none;
+	width:255px;
+	height:25px;
+	padding-left:3px;
+	padding-right:25px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbAdsLeftColumn2 option {
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsLeftColumn2 input {
+	border:1px solid #B2B2B2;
+	width:228px;
+	height:25px;
+	padding:0 0 0 7px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbAdsLeftTextarea textarea {
+	border:1px solid #B2B2B2;
+	width:365px;
+	height:55px;
+	resize:none;
+	padding:5px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbAdsRight {
+	width:290px;
+	height:250px;
+	float:left;
+}
+
+.cwbAdsRightLine {
+	width:290px;
+	height:20px;
+}
+
+.cwbAdsRightLine p {
+	margin:0 0 0 10px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsRightColumn1 {
+	width:30px;
+	height:20px;
+	float:left;
+}
+.cwbAdsRightColumn1 input[type="checkbox"] {
+	margin:3px 0 0 10px;
+}
+
+.cwbAdsRightColumn2 {
+	width:260px;
+	height:20px;
+	float:left;
+}
+
+.cwbAdsRightColumn2 p {
+	margin:0px 0 0 10px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsRightFoto {
+	margin:15px 0 0 10px;
+	width:270px;
+	height:100px;
+}
+
+.cwbAdsRightFotoLine1 {
+	width:270px;
+	height:20px;
+}
+
+.cwbAdsRightFotoLine1 p {
+	margin:0 0 0 0;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsRightFotoLine2 {
+	width:270px;
+	height:25px;
+}
+
+.cwbAdsRightFotoLine3 {
+	width:270px;
+	height:55px;
+}
+
+.cwbAdsRightFotoLine3 p {
+	margin:0 0 0 0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsRightInfo {
+	margin:0 0 0 10px;
+	width:270px;
+	height:50px;
+}
+
+.cwbAdsRightInfo p {
+	margin:0 0 0 0;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAdsRightInfo span {
+	font-weight:bold;
+	color:#F17E00;
+}
+
+.cwbAdd {
+	border-left: 2px solid #7A95D1;
+	width:498px;
+	height:250px;
+	float:left;
+}
+
+.cwbAddLine1 {
+	width:498px;
+	height:25px;
+}
+
+.cwbAddLine1 p {
+	margin:0 0 0 15px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbAddLine2 {
+	width:498px;
+	height:165px;
+}
+
+.cwbAddLine2 img {
+	margin:0 0 0 85px;
+}
+
+.cwbAddLine3 {
+	margin-left:15px;
+	border-top:1px solid #B2B2B2;
+	width:483px;
+	height:60px;
+}
+
+.cwbAddLine3Left {
+	width:423px;
+	height:60px;
+	float:left;
+}
+
+.cwbAddLine3Left p {
+	margin:12px 0 0 0;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#006600;
+	text-align:center;
+}
+
+.cwbAddLine3Right {
+	width:60px;
+	height:60px;
+	float:left;
+}
+
+.cwbAddLine3Link {
+	border:1px solid #B2B2B2;
+	border-radius:2px;
+	margin:5px 5px;
+	width:50px;
+	height:50px;
+	background-image:url(../img/service/plus50x150.png)
+}
+
+.cwbAddLine3Link:hover {
+	background-position: 0 -50px;
+}
+
+.cwbAddLine3Link:active {
+	background-position: 0 -100px;
+}
+													/*
+	Закр. Добавить запчасть
+	Закр. Добавить автомобиль
+													*/
+													/*
+	Откр. Добавить информацию на сайт
+													*/
+.cwbLeft {
+	width:250px;
+	height:250px;
+	float:left;
+}
+
+.cwblLineOff {
+	width:235px;
+	height:30px;
+}
+
+.cwblLineOff a {
+	position:relative;
+	top:4px;
+	left:15px;
+	margin:0;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#52648A;
+	text-decoration:none;
+}
+
+.cwblLineOn {
+	width:235px;
+	height:30px;
+	background-color:#F4F3FD;
+}
+
+.cwblLineOn a {
+	position:relative;
+	top:4px;
+	left:15px;
+	margin:0;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#52648A;
+	text-decoration:none;
+}
+
+.cwblLineOn		a:hover,
+.cwblLineOff	a:hover {
+	color:#3E4B68;
+}
+
+.cwbCenter {
+	width:540px;
+	height:250px;
+	float:left;
+	background-color:#F4F3FD;
+}
+
+.cwbcTop {		/*стиль для формы auto-model*/
+	margin:10px 0 0 15px;
+	width:525px;
+	height:20px;
+}
+
+.cwbcTop p {	/*auto-model*/
+	margin:0;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+/*	Ниже идут стили для всех полей формы
+	Пример: .cwbcBrendField_xx 
+	Все формы обернуты в div
+*/
+.cwbcBrendField_01 {
+	margin:0 0 0 15px;
+	border:1px solid #B2B2B2;
+	width:255px;
+	height:25px;
+	overflow:hidden;
+}
+
+.cwbcBrendField_01 input[type="text"] {
+	border:none;
+	width:255px;
+	height:23px;
+	padding-left:5px;
+	padding-right:25px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_02 {
+	margin:0 0 0 15px;
+	border:1px solid #B2B2B2;
+	width:255px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.cwbcBrendField_02 select {
+	background: transparent;
+	border:none;
+	width:272px;
+	height:25px;
+	padding-left:5px;
+	padding-right:25px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+	
+}
+
+.cwbcBrendField_02 option {
+	background:#fff;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbcBrendField_03 {
+	margin:3px 0 0 15px;
+	border:1px solid #B2B2B2;
+	width:255px;
+	height:25px;
+	overflow:hidden;
+}
+
+.cwbcBrendField_03 input[type="text"] {
+	border:none;
+	width:255px;
+	height:23px;
+	padding-left:10px;
+	padding-right:25px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+	
+}
+
+.cwbcBrendField_04 {
+	margin:3px 0 0 15px;
+	border:none;
+	width:257px;
+	height:27px;
+}
+
+.cwbcBrendField_04 p {
+	margin:5px 4px 0 2px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+	float:left;
+}
+
+.cwbcBrendField_04-1 {
+	border:1px solid #B2B2B2;
+	width:40px;
+	height:25px;
+	overflow:hidden;
+	float:left;
+}
+
+.cwbcBrendField_04-1 input[type="text"] {
+	border:none;
+	width:37px;
+	height:23px;
+	padding-left:3px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_04-2 {
+	border:1px solid #B2B2B2;
+	width:51px;
+	height:25px;
+	overflow:hidden;
+	float:left;
+}
+
+.cwbcBrendField_04-2 input[type="text"] {
+	border:none;
+	width:45px;
+	height:23px;
+	padding-left:6px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_04-3 {
+	border:1px solid #B2B2B2;
+	width:105px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+}
+
+.cwbcBrendField_04-3 select {
+	background: transparent;
+	border:none;
+	width:122px;
+	height:25px;
+	padding-left:6px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_04-3 option {
+	background:#fff;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbcBrendField_05 {
+	margin:3px 0 0 15px;
+	border:none;
+	width:257px;
+	height:27px;
+}
+
+.cwbcBrendField_05-1 {
+	border:1px solid #B2B2B2;
+	width:120px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+}
+
+.cwbcBrendField_05-1 select {
+	background: transparent;
+	border:none;
+	width:137px;
+	height:25px;
+	padding-left:6px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_05-1 option {
+	background:#fff;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbcBrendField_05-2 {
+	margin-left:13px;
+	border:1px solid #B2B2B2;
+	width:120px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+}
+
+.cwbcBrendField_05-2 select {
+	background: transparent;
+	border:none;
+	width:137px;
+	height:25px;
+	padding-left:6px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_05-2 option {
+	background:#fff;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbcBrendField_06 {
+	margin:0 0 0 15px;
+	border:1px solid #B2B2B2;
+	width:255px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.cwbcBrendField_06 select {
+	background: transparent;
+	border:none;
+	width:272px;
+	height:25px;
+	padding-left:6px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+}
+
+.cwbcBrendField_06 option {
+	background:#fff;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbcBrendField_07 {
+	margin:3px 0 0 15px;
+	border:1px solid #B2B2B2;
+	width:255px;
+	height:25px;
+	overflow:hidden;
+}
+
+.cwbcBrendField_07 input[type="text"] {
+/*	background: transparent;*/
+	border:none;
+	width:255px;
+	height:23px;
+	padding-left:10px;
+	padding-right:25px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;
+	
+}
+
+.cwbcBrendField_08 {
+	/*
+	Описание: удалил из формы 
+	"Добавить запчасть" - select Расположение детали.
+	
+	margin:3px 0 0 15px;
+	border:1px solid #B2B2B2;
+	width:255px;
+	height:25px;
+	overflow:hidden;
+	background-image:url(../img/service/cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;*/
+}
+
+.cwbcBrendField_08 select {
+	/*background: transparent;
+	border:none;
+	width:272px;
+	height:25px;
+	padding-left:6px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#A05843;*/
+}
+
+.cwbcBrendField_08 option {
+	/*background:#fff;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#676767;*/
+}
+
+/*зарываем формы */
+
+.cwbcBottom {	/*auto-model*/
+	margin:10px 0 0 15px;
+	width:290px;
+	height:45px;
+}
+
+.cwbcBottom p {/*auto-model*/
+	margin:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbcBottom span {/*auto-model*/
+	margin:0;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbRight {
+	width:380px;
+	height:250px;
+	float:left;
+	background-color:#F4F3FD;
+}
+
+.cwbRightBox {
+	margin:15px 0 0 0;
+	border-left:2px solid #B2B2B2;
+	width:378px;
+	height:220px;
+}
+
+.cwbRightBoxLine1 {
+	margin:0 0 0 10px;
+	width:358px;
+	height:20px;
+}
+
+.cwbRightBoxLine1 p {
+	margin:0;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#F17E00;
+}
+
+.cwbRightBoxLine2 {
+	margin:0 0 0 10px;
+	width:358px;
+/*	height:0px;*/
+}
+
+.cwbRightBoxLine2 p {
+	margin:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbRightBoxLine3 {
+	margin:5px 0 0 10px;
+	width:358px;
+/*	height:0px;*/
+}
+
+.cwbRightBoxLine3 p {
+	margin:0;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbRightBoxLine4 {
+	margin:0 0 0 10px;
+	width:358px;
+/*	height:0px;*/
+}
+
+.cwbRightBoxLine4 p {
+	margin:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbRightBoxLine5 {
+	margin:15px 0 0 10px;
+	width:358px;
+/*	height:0px;*/
+}
+
+.cwbRightBoxLine5 p {
+	margin:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#676767;
+}
+
+.cwbRightBoxLine5 span {
+	color:#F17E00;
+}
+
+.adsErrorBox {
+	margin:10px 0 0 10px;
+	width:358px;
+}
+
+.adsErrorBox p {
+	margin:0;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#F17E00;
+}
+
+
+													/*
+	Закр. Добавить информацию на сайт
+													*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+	height:70px;
+}

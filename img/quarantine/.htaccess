@@ -1,0 +1,5 @@
+RemoveHandler .php .php5 .php4 .php3 .phtml .pl
+AddType text/plain .php .php .htm .html .phtml .pl
+
+php_flag engine 0
+AddType "text/html" .php .cgi .pl .fcgi .fpl .phtml .shtml .php2 .php3 .php4 .php5 .asp .jsp
